@@ -10,7 +10,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:gravity="center_horizontal">
-    <!--Write me-->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,6 +22,7 @@
             android:textSize="30sp"
             android:textStyle="bold"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,4 +59,3 @@
             android:layout_marginEnd="20dp"/>
     </LinearLayout>
 </LinearLayout>
-

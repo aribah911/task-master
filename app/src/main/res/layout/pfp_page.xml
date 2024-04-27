@@ -36,46 +36,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Tasks Completed Label -->
-    <TextView
-        android:id="@+id/txtTasksCompletedLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="# Tasks Completed"
-        app:layout_constraintTop_toBottomOf="@+id/txtUsername"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- Tasks Completed Count -->
-    <TextView
-        android:id="@+id/txtTasksCompleted"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/txtTasksCompletedLabel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- Tasks Remaining Label -->
-    <TextView
-        android:id="@+id/txtTasksRemainingLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="# Remaining"
-        app:layout_constraintTop_toBottomOf="@+id/txtTasksCompleted"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- Tasks Remaining Count -->
-    <TextView
-        android:id="@+id/txtTasksRemaining"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/txtTasksRemainingLabel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <!-- Logout Button -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLogout"
@@ -83,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="LOGOUT"
-        app:layout_constraintTop_toBottomOf="@+id/txtTasksRemaining"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsername"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
